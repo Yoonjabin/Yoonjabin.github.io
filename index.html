@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuidv4.min.js"></script>
+    <title>Register App</title>
+    <style>
+        * { 
+            margin: 0; padding: 0; font-family: 'Oswald', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h1> Welcome! </h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" type="text" placeholder="Enter username" >
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" type="text" placeholder="Enter email">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Enter password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2" type="password" placeholder="Enter password again">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Submit</button> 
+        </form>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
